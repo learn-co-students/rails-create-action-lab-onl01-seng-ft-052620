@@ -1,5 +1,6 @@
 # Create Action Lab
 
+
 1. Build a working `create` action
 2. Use a `form_tag` to create a new form that submits to the `index` action
 3. Correctly name form fields so that they end up at the top level of the `params` hash
