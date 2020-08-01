@@ -12,10 +12,9 @@ class StudentsController < ApplicationController
   end
 
   def create
-    binding.pry
     student = Student.new 
-    student.first_name = params[:students][:first_name]
-    student.last_name = params[:students][:last_name]
+    student.first_name = params[:first_name]
+    student.last_name = params[:last_name]
     student.save
     redirect_to Student.last
   end
